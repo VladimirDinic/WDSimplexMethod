@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F570BB2B1F91602B00827F59 /* WDSimplexMethod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F570BB211F91602B00827F59 /* WDSimplexMethod.framework */; };
+		F570BB301F91602B00827F59 /* WDSimplexMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB2F1F91602B00827F59 /* WDSimplexMethodTests.swift */; };
+		F570BB321F91602B00827F59 /* WDSimplexMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F570BB241F91602B00827F59 /* WDSimplexMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F570BB491F91615A00827F59 /* WDSimplexEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB431F91608F00827F59 /* WDSimplexEquation.swift */; };
+		F570BB4A1F91615A00827F59 /* WDSimplexSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB441F91608F00827F59 /* WDSimplexSolution.swift */; };
+		F570BB4B1F91615A00827F59 /* WDSimplexMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB451F91608F00827F59 /* WDSimplexMatrix.swift */; };
+		F570BB4C1F91615A00827F59 /* WDSimplexMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB461F91608F00827F59 /* WDSimplexMethod.swift */; };
+		F570BB4D1F91615A00827F59 /* WDSimplexVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB471F91608F00827F59 /* WDSimplexVector.swift */; };
+		F570BB4E1F91615A00827F59 /* WDSimplexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F570BB481F91608F00827F59 /* WDSimplexValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F570BB2C1F91602B00827F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F570BB181F91602B00827F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F570BB201F91602B00827F59;
+			remoteInfo = WDSimplexMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F570BB211F91602B00827F59 /* WDSimplexMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDSimplexMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570BB241F91602B00827F59 /* WDSimplexMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDSimplexMethod.h; sourceTree = "<group>"; };
+		F570BB251F91602B00827F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F570BB2A1F91602B00827F59 /* WDSimplexMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDSimplexMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F570BB2F1F91602B00827F59 /* WDSimplexMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexMethodTests.swift; sourceTree = "<group>"; };
+		F570BB311F91602B00827F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F570BB431F91608F00827F59 /* WDSimplexEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexEquation.swift; sourceTree = "<group>"; };
+		F570BB441F91608F00827F59 /* WDSimplexSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexSolution.swift; sourceTree = "<group>"; };
+		F570BB451F91608F00827F59 /* WDSimplexMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexMatrix.swift; sourceTree = "<group>"; };
+		F570BB461F91608F00827F59 /* WDSimplexMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexMethod.swift; sourceTree = "<group>"; };
+		F570BB471F91608F00827F59 /* WDSimplexVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexVector.swift; sourceTree = "<group>"; };
+		F570BB481F91608F00827F59 /* WDSimplexValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDSimplexValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F570BB1D1F91602B00827F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570BB271F91602B00827F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570BB2B1F91602B00827F59 /* WDSimplexMethod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F570BB171F91602B00827F59 = {
+			isa = PBXGroup;
+			children = (
+				F570BB231F91602B00827F59 /* WDSimplexMethod */,
+				F570BB2E1F91602B00827F59 /* WDSimplexMethodTests */,
+				F570BB221F91602B00827F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F570BB221F91602B00827F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F570BB211F91602B00827F59 /* WDSimplexMethod.framework */,
+				F570BB2A1F91602B00827F59 /* WDSimplexMethodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F570BB231F91602B00827F59 /* WDSimplexMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F570BB421F91608F00827F59 /* WDSimplexMethod */,
+				F570BB241F91602B00827F59 /* WDSimplexMethod.h */,
+				F570BB251F91602B00827F59 /* Info.plist */,
+			);
+			path = WDSimplexMethod;
+			sourceTree = "<group>";
+		};
+		F570BB2E1F91602B00827F59 /* WDSimplexMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				F570BB2F1F91602B00827F59 /* WDSimplexMethodTests.swift */,
+				F570BB311F91602B00827F59 /* Info.plist */,
+			);
+			path = WDSimplexMethodTests;
+			sourceTree = "<group>";
+		};
+		F570BB421F91608F00827F59 /* WDSimplexMethod */ = {
+			isa = PBXGroup;
+			children = (
+				F570BB431F91608F00827F59 /* WDSimplexEquation.swift */,
+				F570BB441F91608F00827F59 /* WDSimplexSolution.swift */,
+				F570BB451F91608F00827F59 /* WDSimplexMatrix.swift */,
+				F570BB461F91608F00827F59 /* WDSimplexMethod.swift */,
+				F570BB471F91608F00827F59 /* WDSimplexVector.swift */,
+				F570BB481F91608F00827F59 /* WDSimplexValue.swift */,
+			);
+			path = WDSimplexMethod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F570BB1E1F91602B00827F59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570BB321F91602B00827F59 /* WDSimplexMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F570BB201F91602B00827F59 /* WDSimplexMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F570BB351F91602B00827F59 /* Build configuration list for PBXNativeTarget "WDSimplexMethod" */;
+			buildPhases = (
+				F570BB1C1F91602B00827F59 /* Sources */,
+				F570BB1D1F91602B00827F59 /* Frameworks */,
+				F570BB1E1F91602B00827F59 /* Headers */,
+				F570BB1F1F91602B00827F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDSimplexMethod;
+			productName = WDSimplexMethod;
+			productReference = F570BB211F91602B00827F59 /* WDSimplexMethod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F570BB291F91602B00827F59 /* WDSimplexMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F570BB381F91602B00827F59 /* Build configuration list for PBXNativeTarget "WDSimplexMethodTests" */;
+			buildPhases = (
+				F570BB261F91602B00827F59 /* Sources */,
+				F570BB271F91602B00827F59 /* Frameworks */,
+				F570BB281F91602B00827F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F570BB2D1F91602B00827F59 /* PBXTargetDependency */,
+			);
+			name = WDSimplexMethodTests;
+			productName = WDSimplexMethodTests;
+			productReference = F570BB2A1F91602B00827F59 /* WDSimplexMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F570BB181F91602B00827F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vladimir Dinic";
+				TargetAttributes = {
+					F570BB201F91602B00827F59 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F570BB291F91602B00827F59 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F570BB1B1F91602B00827F59 /* Build configuration list for PBXProject "WDSimplexMethod" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F570BB171F91602B00827F59;
+			productRefGroup = F570BB221F91602B00827F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F570BB201F91602B00827F59 /* WDSimplexMethod */,
+				F570BB291F91602B00827F59 /* WDSimplexMethodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F570BB1F1F91602B00827F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570BB281F91602B00827F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F570BB1C1F91602B00827F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570BB4B1F91615A00827F59 /* WDSimplexMatrix.swift in Sources */,
+				F570BB4A1F91615A00827F59 /* WDSimplexSolution.swift in Sources */,
+				F570BB4D1F91615A00827F59 /* WDSimplexVector.swift in Sources */,
+				F570BB4E1F91615A00827F59 /* WDSimplexValue.swift in Sources */,
+				F570BB4C1F91615A00827F59 /* WDSimplexMethod.swift in Sources */,
+				F570BB491F91615A00827F59 /* WDSimplexEquation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F570BB261F91602B00827F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F570BB301F91602B00827F59 /* WDSimplexMethodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F570BB2D1F91602B00827F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F570BB201F91602B00827F59 /* WDSimplexMethod */;
+			targetProxy = F570BB2C1F91602B00827F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F570BB331F91602B00827F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F570BB341F91602B00827F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F570BB361F91602B00827F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WDSimplexMethod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDSimplexMethod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F570BB371F91602B00827F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WDSimplexMethod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDSimplexMethod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F570BB391F91602B00827F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				INFOPLIST_FILE = WDSimplexMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDSimplexMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F570BB3A1F91602B00827F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CCXG2UGPS;
+				INFOPLIST_FILE = WDSimplexMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladimirdinic.WDSimplexMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F570BB1B1F91602B00827F59 /* Build configuration list for PBXProject "WDSimplexMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570BB331F91602B00827F59 /* Debug */,
+				F570BB341F91602B00827F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F570BB351F91602B00827F59 /* Build configuration list for PBXNativeTarget "WDSimplexMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570BB361F91602B00827F59 /* Debug */,
+				F570BB371F91602B00827F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F570BB381F91602B00827F59 /* Build configuration list for PBXNativeTarget "WDSimplexMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F570BB391F91602B00827F59 /* Debug */,
+				F570BB3A1F91602B00827F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F570BB181F91602B00827F59 /* Project object */;
+}
